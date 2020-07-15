@@ -1,0 +1,106 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background: #d3d3d3;
+}
+   
+small{
+    color:lightgray;
+    font-size: 0.7rem;
+}
+.navbar-brand{
+    font-size: 2rem;
+}
+.fa-1x {
+font-size: 2.2rem;
+}
+.navbar-toggler.toggler-example {
+cursor: pointer;
+}
+.dark-text {
+color: #333333;
+}
+.dark-pink-text {
+color: #AC003A;
+}
+.dark-amber-text {
+color: #ff6f00;
+}
+.dark-teal-text {
+color: #004d40;
+}
+.light{
+    color:#fff;
+}
+.nav-link{
+    font-size: 1.5rem;
+}
+.comparative-big{
+    font-size:2.2rem;
+    /* padding-bottom: 1rem; */
+}
+
+/* ticket booking */
+.container{
+    background:#333333;
+    margin-top:4%;
+    padding:2rem 5rem;
+    border:black 5px solid;
+    border-radius: 20px;
+    /* justify-content: center; */
+}
+.ticket-heading{
+    font-size: 3.35rem;
+    color:white;
+    text-align:center;
+    padding:1rem;
+}
+.input-group {
+   padding:1rem 1rem;
+}
+.input-group-text{
+    color:black;
+    font-size: 1.5rem;
+    margin-right: 1rem;
+}
+.custom-select{
+    font-size: 1.5rem;
+    padding:0.5rem 0.5rem;
+    /* color:black; */
+}
+#purpose{
+    font-size:1.5rem;
+    width:70%;
+    text-align: center;
+}
+
+.form-headings{
+    color:white;
+    font-size:1.5rem;
+}
+#dtime{
+    font-size: 1.7rem;
+}
+#time-help{
+    font-size: 1rem ;
+    color:lightgray;
+}
+
+#triggered{
+    color:white;
+}
+
+.submit-div{
+    text-align: center;
+    margin-top: 2.5rem;
+}
+.submit{
+    color:black;
+    font-weight: 500;
+    width:30%;
+    /* padding:1rem; */
+    font-size: 1.5rem;
+}

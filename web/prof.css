@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background: #d3d3d3;
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+    /*opacity: 0.6px;*/
+
+}
+.loginbox{
+    width: 320px;
+    height: 480px;
+    background: #333333;
+    color:white;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    top:22%;
+    left:38%;
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+
+.avatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    /*left: calc(50%-50px);*/
+}
+.overlay{
+    position: absolute;;
+    top:8.5%;
+    left:0;
+    bottom:0;
+    background:rgba(0,0,0,0.65);
+    height:100%;
+    width:100%;
+    overflow: hidden;
+}
+h1{
+    margin: 0;
+
+    text-align: center;
+    font-size: 25px;
+    color: white;
+
+
+    background: black;
+    padding: 15px;
+}
+h2{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+    color: rgb(56, 188, 228);
+}
+.loginbox p{
+    margin: 0;
+    padding: 0;
+    /*font-weight: bold;*/
+    font-size: 1.2rem;
+}
+.loginbox input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.loginbox input[type="text"], input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid rgb(20, 108, 150);
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: white;
+    font-size: 20px;
+
+
+}
+/*.html{*/
+/*    text-decoration: underline;*/
+/*    color: whitesmoke;*/
+/*    text-decoration-style: solid;*/
+/*    font-size: 15px;*/
+/*}*/
+.loginbox input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #51c9df;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.loginbox input[type="submit"]
+{
+    cursor: pointer;
+    background: #4bdaf3;
+    color: rgb(179, 230, 230);
+    font-weight: bold;
+
+}
+.loginbox a{
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 20px;
+    color: white;
+
+}
+.loginbox a:hover
+{
+    color: #ddd2d2ec;
+
+}
+.navbar-brand{
+    font-size: 2rem;
+}
+.fa-1x {
+    font-size: 2.2rem;
+}
+.navbar-toggler.toggler-example {
+    cursor: pointer;
+}
+.dark-text {
+    color: #333333;
+}
+.dark-pink-text {
+    color: #AC003A;
+}
+.dark-amber-text {
+    color: #ff6f00;
+}
+.dark-teal-text {
+    color: #004d40;
+}
+.light{
+    color:#fff;
+}
+.nav-link{
+    font-size: 1.5rem;
+}

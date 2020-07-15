@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+   /* box-sizing: border-box;*/
+}
+body{
+    background: url("Pic/aerial.jpg") no-repeat center fixed;
+    background-size: cover;
+}
+a{
+    text-decoration: none;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    background: black;
+    padding: 15px;
+    font-size:1.5rem;
+}
+.registration{
+    margin-top: 2%;
+    margin-left:35%;
+    width: 30%;
+   /*height:80%;*/
+    text-align: center;
+    /* color: rgb(220, 229, 236); */
+    color:black;
+    background: white;
+    border:4px solid rgba(0,0,0,1);
+    padding: 10px;
+}
+
+h2{
+    padding: 5px;
+    font-size:2rem;
+    color:black;
+}
+
+.overlay{
+    position: absolute;
+    top:8.5%;
+    left:0;
+    bottom:0;
+    background:rgba(0,0,0,0.6);
+    height:100%;
+    width:100%;
+    overflow: hidden;
+}
+.form-entries{
+    color:black;
+}
+.name{
+    width: 70%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+    /* outline: 0; */
+    font-family: serif;
+    font-size: 1.2rem;
+    background: none;
+    color: black;
+    /* z-index-1; */
+}
+#number{
+    width: 52%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+    outline: 0;
+    font-family: serif;
+    font-size: 1.2rem;
+    background:none;
+    color: black;
+}
+#num
+{
+    padding: 7px 0px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+    outline: 0;
+    background: none;
+    color:black;
+    font-size: 1.2rem;
+    background:none;
+    /* color:white; */
+}
+
+.gender{
+    font-size: 1.2rem;
+    margin-right:20px
+}
+#ma{
+    font-size: 1.2rem;
+    /* margin-right:5px; */
+}
+#check{
+    font-family: serif;
+    font-size: 18px;
+}
+#sub{
+    width: 150px;
+    padding: 8px;
+    font-family: serif;
+    font-size: 1.2rem;
+    border: 1px solid black;
+    /* outline: 0; */
+    border-radius: 5px;
+    background: none;
+    color: black;
+}
+#sub:hover{
+    background: black;
+    color:white;
+}
+::placeholder{
+    color:gray;
+}
+
+/* Login */
+.check{
+    font-size: 1.5rem;
+}
+.check-icon{
+    height:20px;
+    width:20px;
+}
+.button-link{
+    color:black;
+}
+.button-link:hover{
+    text-decoration:none; 
+    color:white;
+}

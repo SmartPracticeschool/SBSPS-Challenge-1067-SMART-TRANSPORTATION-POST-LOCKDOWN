@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration Form</title>
+        <link rel="stylesheet" type="text/css" href="registration.css">
+
+    </head>
+    <body>
+        <h1>COVID-19 TRAVELCOVER<br></h1><br>
+     <div class="overlay">
+        <div class="registration">
+        
+            <form id="registration" method="post" action="registerAction">
+                
+                <h2>Sign Up</h2><br><br>
+                <input type="text" name="fname" class="name" placeholder="Enter your first name"><br><br>
+                <input  type="text" name="lname" class="name" placeholder="Enter your last name"><br><br>
+                <input  type="email" name="email" class="name" placeholder="Enter your Mail id"><br><br>
+                <input  type="number" name="aadhar"class="name" placeholder="Enter Aadhar Card No."><br><br>
+                
+                <select id="num" >
+                    <option >+ 91</option>
+                        <option>+ 850</option>
+                        <option>+ 98</option>
+                        <option>+ 81</option>
+                            <option>+ 84</option>
+                            <option>+ 852</option>
+                            <option>+ 65</option>
+                            <option>+ 82</option>
+                            <option>+ 84</option>
+                            <option>+ 63</option>
+                </select><input type="number" name="mob" id="number" placeholder="Enter your mobile number"><br><br>
+               <span class="gender" name="gender">Gender</span> 
+                <input type="radio" name="gender" value="m"> &nbsp;Male
+                <input type="radio" name="gender" value="f"> &nbsp;Female
+                <input type="radio" name="gender" value="o"> &nbsp;Others<br><br><br>
+                <input type="submit" value="Next" id="sub">
+             <!-- <button type="Next" id="sub"> <a class="button-link" href="registration2.html"> Next</a></button> -->   
+            </form>   
+        </div>
+     </div>
+    </body>
+</html>

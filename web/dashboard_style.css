@@ -1,0 +1,126 @@
+   body{
+       background: #d3d3d3;
+   }
+   
+   .navbar-brand{
+        font-size: 2rem;
+    }
+    .fa-1x {
+    font-size: 2rem;
+    }
+    .navbar-toggler.toggler-example {
+    cursor: pointer;
+    }
+    .dark-text {
+    color: #333333;
+    }
+    .dark-pink-text {
+    color: #AC003A;
+    }
+    .dark-amber-text {
+    color: #ff6f00;
+    }
+    .dark-teal-text {
+    color: #004d40;
+    }
+    .light{
+        color:#fff;
+    }
+    .nav-link{
+        font-size: 1.5rem;
+    }
+
+    .up-jr{
+        background: #333333;
+        margin: 20px;
+        padding: 1rem 1rem;
+        color:white;
+        padding-left: 5rem;
+        border-radius: 15px;
+    }
+    .comparative-big{
+        font-size:2.2rem;
+        /* padding-bottom: 1rem; */
+    }
+    .ticket-details{
+        font-size: 1.5rem;
+    }
+    .cancel-ticket{
+        text-align: right;
+       padding-right:15%;
+    }
+    .cancel-ticket a{
+        font-size:1.5rem;
+        /* color:#e8e4c9; */
+        color:lightblue;
+    }
+    .cancel-ticket a:hover{
+        font-size:1.5rem;
+        color:lightskyblue;
+    }
+
+    .blog{
+        background:#fff;
+        margin: 20px;
+        padding: 1rem 1rem;
+        border: black 2px solid ;
+        border-radius: 20px;
+        height:100vh;
+        overflow: hidden;
+    }
+    .blog-heading{
+        text-align: center;
+        font-size: 3rem;
+        background:#332E2D ;
+        color:white;
+        padding:0.5rem 0.5rem;
+        border-radius: 20px;
+    }
+    .grid{
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        padding:1rem 1rem;
+    }
+    .grid-2{
+        font-size:1.35rem;
+        margin-left: 1.5rem;
+        padding:1rem 1rem;
+    }
+    .blog-pic{
+        background:url("Pic/dashboard_pic.jpg") no-repeat center center/cover;
+         height:350px;
+        /* width:600px;  */
+        margin:10px;
+        border:black 5px solid ;
+        border-radius:10px;
+    }
+    .blog-para{
+        font-size: 1.4rem;
+       overflow: hidden;
+        /* padding:1rem 1rem;  */
+    }
+    .tno,
+    .tdate,
+    .tprice{
+        color:white;
+        font-size:1.2rem;
+    }
+
+    .chatbot-btn{
+        /*position:relative;*/
+        /*top:10rem;*/
+        /*left:90%;*/
+        margin-left:85%;
+        margin-right:5%;
+        /*padding:0;*/
+        position:-webkit-sticky;
+        position:sticky;
+        top:90%;
+        text-align:center;
+        background: royalblue;
+    }
+    .chatbot-btn a{
+        text-decoration: none;
+        color:white;
+        font-size: 1.5rem;
+    }
