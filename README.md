@@ -21,8 +21,10 @@ The detailed report on the project has been mentioned in the ZOHO writer as well
 The working of project is explained with the help of a demonstration video , the link for the same is provided below :-
 https://drive.google.com/file/d/1xEUNzIiHNIt-ooyqItiz3gF_ga1wH1Oj/view?usp=sharing
 
-The backend of the project is based on JAVA. The files demonstrating the working of the application are present in the "src" folder of this repository.
+The backend of the project is based on JAVA. The java files demonstrating the working of the application are present in the "src" folder of this repository.
 
 The frontend is done in HTML,CSS and JavaScript . The files for the same are present in "web" folder of this repository.
 
-The pictures used in the project are present in a folder name "Pic".
+The pictures used in the project are present in a folder "web/Pic".
+
+The Project explaination presentation is present under the name "IBM presentation.pptx".
